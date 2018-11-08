@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<title>Side Tip Calculator</title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Side Tip Calculator</h1>
+    <br>
+
+
+    <br>
+    
+    <hr>
+    
+    </header>
+    <form>
+       <p>Amount: $<input id="bill" type="number"></p>
+        <label><input id="twentyper" type="radio" name="percent" value=0.20>20%</label>
+        <br>
+        <label><input id="fifper" type="radio" name="percent" value=0.15>15%</label>
+        <br>
+        <label><input id="tenper" type="radio" name="percent" value=0.10>10%</label>
+        <br>
+        <label><input id="radioper" type="radio" name="percent">Other%</label>
+          <input id="enterper" type="number" name="percent"><br>
+          <br>
+          <br>
+        <button id="button" type="button">Calculate it!</button><br>
+        <br>
+        What's your Tip?: <span id="tip"></span>
+        <br>
+        Here's your Total: <span id="total"></span>
+    </form>
+</div>
+<script src="tip_calc.js"></script>
+</body>
